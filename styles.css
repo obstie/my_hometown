@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: quicksand;
+    text-align: center;
+
+}
+#hero_section {
+    background-image: url(hero.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 300px;
+    text-shadow: 0px 0px 1px black;
+}
+a {
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    font-size: 1.3em;
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-weight: 900;
+    background-color: bisque;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 0px 4px rgb(12, 10, 10);
+}
+.aboutme {
+    font-size: 20px;
+    width: 800px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.imgcont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.sumimage {
+    width: 300px;
+    height: auto;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 6px;
+}
+#summary {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin: 150px 20px;
+}
+.imgcont:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgb(224, 219, 219);
+    background-color: rgb(245, 244, 242);
+    border-radius: 5px;
+}
+#fimage {
+    width: 200px;
+    border-radius: 50%;
+    border: 4px solid gold;
+    margin: 20px;
+}
+.footercard {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid gray;
+    margin-bottom: 60px;
+}
+.cardinfo {
+    align-items: center;
+    margin: 40px auto;
+}
+#copyright {
+    font-weight:900;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+.socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.socials img {
+    width: 35px;
+    margin: 20px;
+}
+input {
+    line-height: 30px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    margin: 5px 10px;
+}
+label {
+    padding: 5px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(231, 208, 178);
+}
+label:hover {
+    background-color: burlywood;
+    border: 1px solid rgb(129, 129, 151);
+    cursor: pointer;
+}
